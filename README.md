@@ -6,6 +6,7 @@
 
 **A little changed by Alex from NCKUEE,Taiwan.**
 
->>Origin from [probablytom](https://github.com/probablytom/dithering)
->>Version 1.0: change dithering.py
+>**Origin from [probablytom](https://github.com/probablytom/dithering)**
+
+>Version 1.0: change dithering.py
 
