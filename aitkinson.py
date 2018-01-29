@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 import sys, PIL.Image
 
 img = PIL.Image.open(sys.argv[-1]).convert('L')
+=======
+import sys
+from PIL import Image
+
+img = Image.open(sys.argv[-1]).convert('L')
+>>>>>>> 45e79500176ae41eac83eeb183a6f9b5bda5340a
 
 threshold = 128*[0] + 128*[255]
 

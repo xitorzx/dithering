@@ -1,7 +1,11 @@
 from PIL import Image
 
 example_image = '000039.jpg'
+<<<<<<< HEAD
 
+=======
+new_image = '000040.jpg'
+>>>>>>> 45e79500176ae41eac83eeb183a6f9b5bda5340a
 floyd_steinberg_matrix = [
                           [(-1, 0), (0, 0), (1, 7)],
                           [(-1, 3), (0, 5), (1, 1)]
@@ -11,7 +15,11 @@ coefficient = sum([part[1] for row in floyd_steinberg_matrix for part in row])
 colour_count = 2**24
 
 image = Image.open(example_image)
+<<<<<<< HEAD
 
+=======
+#
+>>>>>>> 45e79500176ae41eac83eeb183a6f9b5bda5340a
 def apply_floyd_steinberg(x, y, image):
 
     # Calculations for current pixel
@@ -44,3 +52,7 @@ for x in range(1, width-1):
     for y in range(1, height-1):
         image = apply_floyd_steinberg(x, y, image)
 image.show()
+<<<<<<< HEAD
+=======
+image.save(new_image)
+>>>>>>> 45e79500176ae41eac83eeb183a6f9b5bda5340a
